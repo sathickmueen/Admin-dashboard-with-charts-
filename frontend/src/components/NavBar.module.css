@@ -1,0 +1,24 @@
+.navbar {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.toggleBtn {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #2575fc;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.toggleBtn:hover {
+  background-color: #6a11cb;
+}

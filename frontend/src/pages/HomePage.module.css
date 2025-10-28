@@ -1,0 +1,17 @@
+.container {
+  padding: 20px;
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 300px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: inherit; /* let theme handle it */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
